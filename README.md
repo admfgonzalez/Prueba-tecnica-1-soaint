@@ -1,5 +1,5 @@
 # Este ejercicio corresponde a una prueba tecnica dentro de un proceso de postulacion real
-# El ejercicio:
+## El ejercicio:
 
 ## Desafio técnico Mantenedor 1
 ## Crear una aplicación Web [front - back] que permita realizar el registro de tareas, con las
@@ -9,34 +9,36 @@ siguientes funcionalidades:
 - Remover una tarea
 - Editar una tarea
 ## Consideraciones
-# Front
+### Front
 - Utilizar las librerías React + Redux
 - Validar que los controles de entrada sean obligatorios
 - Crear pruebas unitarias
-# Back
+### Back
 • Construir utilizando el framework Spring Boot
 - Exponer mediate API REST
 - Utilizar Swagger para documentar las API
 - Validar que en las acciones agregar/editar sean obligatorios los campos de entrada
 - Utilizar para la persistencia lo que más le acomode [ORM o nativo JDBCI
 - Crear pruebas unitarias
-# DB
+### DB
 - Utilizar el motor DB que más le acomode [relacional, NoSql]
 - La estructura de la tarea deberá contener los siguientes campos: identificador[numérico],
 descripción [cadena], fechaCreación [fecha tempo], vigente [booleano]
+
 ## Entrega
 - Compartir en un repositorio git el código fuente del front, back y script de base de datos.
 Además crear instructivo que indique como desplegar el aplicativo.
 
-## Para ejecutar
-- Correr el `main` method in the `com.fgonzalez.pruebatecnica.tareaApp` desde tu IDE favorito.
+# Para ejecutar
+- Correr el `main` de la clase `com.fgonzalez.pruebatecnica.TareaApp` desde tu IDE favorito.
 
-- Tambien puedes corres el siguiente comando en terminal
+- Tambien puedes correr el siguiente comando en terminal
+  
 ```
 mvn spring-boot:run
 ```
 
-### Esto despliega una interfaz swagger en la siguiente URL [swagger ui](http://localhost:8080/swagger-ui/) 
+## Esto despliega una interfaz swagger en la siguiente URL [swagger ui](http://localhost:8080/swagger-ui/) 
 ## Tecnologies
 - Java
     - Spring Boot
