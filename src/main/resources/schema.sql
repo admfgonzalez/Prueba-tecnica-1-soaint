@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS TBL_TAREAS (
+    identificador INT AUTO_INCREMENT PRIMARY KEY,
+    descripcion VARCHAR(70) NOT NULL,
+    fecha_creacion DATE NOT NULL,
+    vigente BOOLEAN NOT NULL,
+    deleted BOOLEAN DEFAULT(FALSE)
+);
